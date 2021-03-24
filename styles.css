@@ -1,0 +1,55 @@
+@import url('http://fonts.cdnfonts.com/css/noe-display');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    text-decoration: none;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 10%;
+    background-color: transparent;
+} 
+.nav_links li{
+    display:inline-block;
+    margin: 0 30px;
+}
+
+.central {
+    text-align: center;
+    background-color:transparent;
+}
+.central h1 {
+    margin-top:0.2em;
+    font-family: 'Noe Display';
+    font-size:5em;
+    color:rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+.central h4{
+    margin-top: 1em;
+    font-size: 1em;
+    /* color:#ffff; */
+    background-color: transparent;
+}
+header{
+    background-image:url(../img/bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 10%;
+}
+
+.login{
+    border-radius: 10px ;
+    background-color: #00a8fc;
+}
